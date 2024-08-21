@@ -1,0 +1,20 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "long"
+        },
+        "text": {
+            "bsonType": "string"
+        },
+        "title": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "title",
+        "text"
+    ],
+    "title": "Message",
+    "type": "object"
+}
